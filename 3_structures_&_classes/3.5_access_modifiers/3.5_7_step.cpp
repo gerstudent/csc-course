@@ -16,7 +16,6 @@
 
 */
 
-
 struct Cls2 {
     Cls2(char _c, double _d, int _i);
 public:
