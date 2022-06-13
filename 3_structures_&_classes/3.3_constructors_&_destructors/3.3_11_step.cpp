@@ -29,7 +29,6 @@ struct String {
         delete[] str;
     }
 
-
     size_t size;
     char *str;
 };

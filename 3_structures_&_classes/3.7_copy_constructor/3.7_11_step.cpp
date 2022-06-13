@@ -17,7 +17,7 @@ struct String {
     String(const String &other);
     ~String();
 
-    void swap (String &other) {
+    void swap(String &other) {
         std::swap(size, other.size);
         std::swap(str, other.str);
     }
