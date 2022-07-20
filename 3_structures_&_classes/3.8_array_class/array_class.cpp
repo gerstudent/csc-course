@@ -2,7 +2,7 @@
 #include <algorithm>
 
 struct IntArray {
-    explicit IntArray(size_t size) : size_(size), data_(new size_t[size]) {
+    explicit IntArray(size_t size) : size_(size), data_(new int[size]) {
         for (size_t i = 0; i != size_; ++i) {
             data_[i] = 0;
         }
